@@ -1,6 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql, StaticQuery } from 'gatsby';
+
+require('prismjs/themes/prism-dark.css')
 
 class BlogRoll extends React.Component {
 
@@ -10,19 +12,18 @@ class BlogRoll extends React.Component {
     
     return (
       <div className="columns is-multiline">
-      {posts && (posts
-          .map(({ node: post }) => (
-            <div
-              className="is-parent column is-6"
-              key={post.id}
-            >
-            <article class="tile is-child box notification">
+      {posts && (posts.map(({ node: post }) => (
+          <div
+            className="is-parent column is-6"
+            key={post.id}
+          >
+            <article className="tile is-child box notification">
               <p>
                 <Link className="title has-text-primary is-size-4" to={post.fields.slug}>
                   {post.frontmatter.title}
                 </Link>
                 <span> &bull; </span>
-                <p className="subtitle is-size-5">{post.frontmatter.date}</p>
+                <span className="subtitle is-size-5">{post.frontmatter.date}</span>
               </p>
               <p>
                 {post.excerpt}
@@ -32,10 +33,10 @@ class BlogRoll extends React.Component {
                   Keep Reading →
                 </Link>
               </p>
-              </article>
-            </div>
-          )))}
+            </article>
           </div>
+        )))}
+      </div>
     );
   }
 }

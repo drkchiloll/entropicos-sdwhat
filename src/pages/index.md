@@ -1,9 +1,9 @@
 ---
 templateKey: 'index-page'
-title: 'Modernization with digitization'
+title: 'Intuitive Enterprise Architecture'
 image: /img/alexandre-debieve-561298-unsplash.jpg
-heading: Better workflows and seamless integrations 
-subheading: Business outcomes and with effective UX/CX patterns
+heading: Better workflows and seamless integrations
+subheading: Best in class Business Outcomes With Effective UX/CX Patterns
 description: >-
   Œntropicos provides integration services...
 mainpitch:
@@ -15,13 +15,7 @@ intro:
   blurbs:
     - image: /img/rawpixel-653764-unsplash.png
       text: >
-        Integrate your collaboration suite for improved team performance and tranparency
-    - image: /img/kaleidico-754525-unsplash.png
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    - image: /img/kaleidico-754525-unsplash.png
-      text: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Integrate business workflows and processes into your collaboration suite of products such as Cisco Webex Teams, SlackHQ, and/or Microsoft Teams for improved team performance and tranparency
     - image: /img/kaleidico-754525-unsplash.png
       text: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
