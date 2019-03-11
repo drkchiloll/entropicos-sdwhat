@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql, StaticQuery } from 'gatsby';
 
-require('prismjs/themes/prism-dark.css')
+// require('prismjs/themes/prism-dark.css');
+require("prismjs/themes/prism-coy.css")
+require("prismjs/plugins/line-numbers/prism-line-numbers.css");
 
 class BlogRoll extends React.Component {
 

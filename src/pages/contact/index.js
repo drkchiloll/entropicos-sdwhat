@@ -101,7 +101,10 @@ export default class Index extends React.Component {
                   </div>
                 </div>
                 <div className="field">
-                  <button className="button is-link" type="submit">
+                  <button style={{ backgroundColor: 'rgb(227, 25, 76)', color: 'white' }}
+                    className="button"
+                    type="submit"
+                  >
                     Send
                   </button>
                 </div>

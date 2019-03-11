@@ -41,10 +41,14 @@ module.exports = {
               name: 'uploads',
             },
           },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {}
-          },
+          'gatsby-remark-prismjs',
+          // {
+          //   resolve: `gatsby-remark-prismjs`,
+          //   options: {
+          //     classPrefix: "language-",
+          //     showLineNumbers: true,
+          //   }
+          // },
           {
             resolve: 'gatsby-remark-images',
             options: {

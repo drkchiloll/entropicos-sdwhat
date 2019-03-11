@@ -16,11 +16,11 @@ categories: ["CCX Tips/Tricks", "UCCX"]
 If you are new to my blog, then you may not know that my day job is more or less as a Cisco Contact Center Express IVR application developer; you can read a small piece I wrote concerning the development of UCCX apps [here](http://samiamsam.com/2013/12/31/ccx-developer/ "{ccx developer}"). In this post of tips and tricks about developing on top of UCCX, I want to show you a method to validate a date without the potentiality of having an Exception thrown in your Application. If you've ever develop an IVR application, you've probably had some sort of Date input in your application such as a caller entering their Date of Birth, date they want to pay a bill, and/or date they want to go somewhere (think schedules for planes, trains, automobiles, and even ferries/boats). As a note, your UCCX system should have at least an Enhanced IVR Port/CCX seat license. Let's look at an example that encounters a problem if used on the system (think of the string as been given its value when a caller entered the digits on a keypad).
 
 
-```js
-  String sDt = "01672014"
+```java
+  String sDt = "01672014";
   //You are Reading Correctly
   //This is a Set Step in the CCX Editor 
-  Set date = sDt
+  String date = sDt
   // Unfortunately Your Caller Just Got The
   // System Error Message and Can't Continue
 ```
